@@ -23,16 +23,16 @@ export default function NavBar() {
         <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" to="/become-a-renter">Become a Renter</Link>
+              <Link className="nav-link" to="#">Become a Renter</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/rental-deals">Rental Deals</Link>
+              <Link className="nav-link" to="#">Rental Deals</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/how-it-works">How It Works</Link>
+              <Link className="nav-link" to="#">How It Works</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/why-choose-us">Why Choose Us</Link>
+              <Link className="nav-link" to="#">Why Choose Us</Link>
             </li>
           </ul>
           <div className="d-flex">
