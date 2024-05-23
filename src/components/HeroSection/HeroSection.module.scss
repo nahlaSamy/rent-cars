@@ -1,0 +1,31 @@
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+@keyframes scaleImage {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.heroContent {
+
+  background-image: url(/src/assets/bg1.png) ;
+
+}
+
+.animateImg {
+  animation-name: scaleImage;
+  animation-duration: 2s;
+}
