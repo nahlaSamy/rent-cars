@@ -1,0 +1,40 @@
+.sec-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+.popular-rental-deals-btn {
+  background-color: #1572d31a;
+  color: #0b5ed7;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card-custom {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-custom {
+  background-color: #accef4;
+  border-radius: 20%;
+  padding: 20px;
+  margin-right: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-custom svg {
+  color: #007bff;
+  font-size: 2rem;
+}
