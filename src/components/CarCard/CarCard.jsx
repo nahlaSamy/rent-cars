@@ -14,7 +14,7 @@ export default function CarCard(props) {
             <div className="card col-md-6 mx-2  my-2" style={{ width: '18rem' }}>
                 <img src={car} className="d-flex justify-content-center m-4" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">{cars.make} </h5>
+                    <h5 className="card-title">{cars.make} {cars.model} </h5>
                  
                     <div className="d-flex align-items-baseline">
                         <img src={star} alt="" />
